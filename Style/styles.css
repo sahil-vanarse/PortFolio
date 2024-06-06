@@ -101,6 +101,8 @@ span {
     border-radius: 50%;
     width: 50vh;
     animation: floatImage 3s ease-in-out infinite;
+    border: .5rem solid var(--main-color);
+    padding: 10px;
 }
 
 @keyframes floatImage {
@@ -167,7 +169,9 @@ span {
 
 .about-img img {
     width: 50vh;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border: 0.5rem solid var(--main-color); /* Black border with 2px width */
+    padding: 10px; /* Creates a 10px margin around the image */
 }
 
 .heading {
@@ -189,3 +193,28 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*when we will add neew block it will automatically added and 1fr means 1 fraction i.e the space will be proprotionally divide into same height and width */
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+.services-container .services-box {
+    background: var(--snd-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
