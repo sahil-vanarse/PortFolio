@@ -262,7 +262,7 @@ span {
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
-    opacity: 25%;
+    opacity: 75%;
 }
 
 .portfolio-box:hover img{
