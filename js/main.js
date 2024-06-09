@@ -8,8 +8,8 @@ menuIcon.onclick = () => {
 }
 
 // scroll section active link
-let sections = document.querySelector('section')
-let navLinks = document.querySelector('header nav a')
+let sections = document.querySelectorAll('section')
+let navLinks = document.querySelectorAll('header nav a')
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -25,6 +25,4 @@ window.onscroll = () => {
             })
         }      
     })
-
-
 }
