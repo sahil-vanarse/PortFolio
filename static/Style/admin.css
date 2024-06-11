@@ -1,0 +1,94 @@
+/* admin_styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #2E3440;
+    color: #ECEFF4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #88C0D0;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #88C0D0;
+    border-radius: 5px;
+    background-color: #4C566A;
+    color: #ECEFF4;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #88C0D0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #88C0D0;
+    color: #2E3440;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5E81AC;
+}
+
+/* Project list styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li h3 {
+    margin-bottom: 5px;
+}
+
+li p {
+    margin-bottom: 10px;
+}
+
+li form {
+    margin-bottom: 10px;
+}
+
+li form button {
+    background-color: #5E81AC;
+}
+
+li form button:hover {
+    background-color: #81A1C1;
+}
+
+a {
+    color: #88C0D0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
