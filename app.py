@@ -9,3 +9,7 @@ def index():
 @app.route('/admin')
 def admin():
     return render_template('admin.html')
+
+@app.route('update')
+def update():
+    
